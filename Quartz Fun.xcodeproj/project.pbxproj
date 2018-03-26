@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93AAE5452060457A00D4D239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAE5442060457A00D4D239 /* AppDelegate.swift */; };
+		93AAE5472060457A00D4D239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAE5462060457A00D4D239 /* ViewController.swift */; };
+		93AAE54A2060457A00D4D239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AAE5482060457A00D4D239 /* Main.storyboard */; };
+		93AAE54D2060457A00D4D239 /* Quartz_Fun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93AAE54B2060457A00D4D239 /* Quartz_Fun.xcdatamodeld */; };
+		93AAE54F2060457A00D4D239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AAE54E2060457A00D4D239 /* Assets.xcassets */; };
+		93AAE5522060457A00D4D239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AAE5502060457A00D4D239 /* LaunchScreen.storyboard */; };
+		93AAE55A206045A400D4D239 /* QuartzFunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAE559206045A400D4D239 /* QuartzFunView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93AAE5412060457A00D4D239 /* Quartz Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AAE5442060457A00D4D239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93AAE5462060457A00D4D239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93AAE5492060457A00D4D239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93AAE54C2060457A00D4D239 /* Quartz_Fun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quartz_Fun.xcdatamodel; sourceTree = "<group>"; };
+		93AAE54E2060457A00D4D239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93AAE5512060457A00D4D239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93AAE5532060457A00D4D239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AAE559206045A400D4D239 /* QuartzFunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzFunView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93AAE53E2060457A00D4D239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93AAE5382060457A00D4D239 = {
+			isa = PBXGroup;
+			children = (
+				93AAE5432060457A00D4D239 /* Quartz Fun */,
+				93AAE5422060457A00D4D239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93AAE5422060457A00D4D239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AAE5412060457A00D4D239 /* Quartz Fun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AAE5432060457A00D4D239 /* Quartz Fun */ = {
+			isa = PBXGroup;
+			children = (
+				93AAE5442060457A00D4D239 /* AppDelegate.swift */,
+				93AAE5462060457A00D4D239 /* ViewController.swift */,
+				93AAE559206045A400D4D239 /* QuartzFunView.swift */,
+				93AAE5482060457A00D4D239 /* Main.storyboard */,
+				93AAE54E2060457A00D4D239 /* Assets.xcassets */,
+				93AAE5502060457A00D4D239 /* LaunchScreen.storyboard */,
+				93AAE5532060457A00D4D239 /* Info.plist */,
+				93AAE54B2060457A00D4D239 /* Quartz_Fun.xcdatamodeld */,
+			);
+			path = "Quartz Fun";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93AAE5402060457A00D4D239 /* Quartz Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93AAE5562060457A00D4D239 /* Build configuration list for PBXNativeTarget "Quartz Fun" */;
+			buildPhases = (
+				93AAE53D2060457A00D4D239 /* Sources */,
+				93AAE53E2060457A00D4D239 /* Frameworks */,
+				93AAE53F2060457A00D4D239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz Fun";
+			productName = "Quartz Fun";
+			productReference = 93AAE5412060457A00D4D239 /* Quartz Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93AAE5392060457A00D4D239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Erin Dougher";
+				TargetAttributes = {
+					93AAE5402060457A00D4D239 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93AAE53C2060457A00D4D239 /* Build configuration list for PBXProject "Quartz Fun" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93AAE5382060457A00D4D239;
+			productRefGroup = 93AAE5422060457A00D4D239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93AAE5402060457A00D4D239 /* Quartz Fun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93AAE53F2060457A00D4D239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AAE5522060457A00D4D239 /* LaunchScreen.storyboard in Resources */,
+				93AAE54F2060457A00D4D239 /* Assets.xcassets in Resources */,
+				93AAE54A2060457A00D4D239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93AAE53D2060457A00D4D239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AAE5472060457A00D4D239 /* ViewController.swift in Sources */,
+				93AAE55A206045A400D4D239 /* QuartzFunView.swift in Sources */,
+				93AAE5452060457A00D4D239 /* AppDelegate.swift in Sources */,
+				93AAE54D2060457A00D4D239 /* Quartz_Fun.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93AAE5482060457A00D4D239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AAE5492060457A00D4D239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93AAE5502060457A00D4D239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93AAE5512060457A00D4D239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93AAE5542060457A00D4D239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93AAE5552060457A00D4D239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93AAE5572060457A00D4D239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quartz Fun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dougher.Quartz-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93AAE5582060457A00D4D239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quartz Fun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dougher.Quartz-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93AAE53C2060457A00D4D239 /* Build configuration list for PBXProject "Quartz Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AAE5542060457A00D4D239 /* Debug */,
+				93AAE5552060457A00D4D239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93AAE5562060457A00D4D239 /* Build configuration list for PBXNativeTarget "Quartz Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AAE5572060457A00D4D239 /* Debug */,
+				93AAE5582060457A00D4D239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93AAE54B2060457A00D4D239 /* Quartz_Fun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93AAE54C2060457A00D4D239 /* Quartz_Fun.xcdatamodel */,
+			);
+			currentVersion = 93AAE54C2060457A00D4D239 /* Quartz_Fun.xcdatamodel */;
+			path = Quartz_Fun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93AAE5392060457A00D4D239 /* Project object */;
+}
